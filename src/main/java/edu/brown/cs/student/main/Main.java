@@ -126,7 +126,6 @@ public final class Main {
       List<String> matches = MatchMaker.makeMatches(sun, moon, rising);
 
       // TODO: create an immutable map using the matches
-
       Map<String, List<String>> immutableMapMatches = Map.of("matches", matches);
 
       // TODO: return a json of the suggestions (HINT: use GSON.toJson())
